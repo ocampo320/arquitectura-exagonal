@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rutas
+    username: postgres
+    password: 2220718
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
